@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/pageMarginAndoffset"
+    android:layout_marginRight="@dimen/pageMarginAndoffset"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        tools:src="@drawable/image_1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>
